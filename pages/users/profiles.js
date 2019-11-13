@@ -35,6 +35,7 @@ class Home extends React.Component  {
       <div>
       <Nav/>
     <p>{"res"}</p>
+    
     <h>Helo world users profale 1231231</h>
   </div>
     )
