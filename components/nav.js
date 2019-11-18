@@ -8,7 +8,8 @@ const links = [
   return link
 })
 
-const Nav = () => (
+const Nav = (props) => (
+  
   <nav>
     <ul>
       <li>
@@ -16,8 +17,8 @@ const Nav = () => (
           <a>Home</a>
         </Link>
       </li>
-      <li>
-        <Link href='/users'>
+      <li  onClick={()=>console.log('props123',props)}>
+        <Link href={`/users/${props.userid}`}>
           <a>Users</a>
         </Link>
       </li>
