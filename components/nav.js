@@ -18,7 +18,7 @@ const Nav = (props) => (
         </Link>
       </li>
       <li  onClick={()=>console.log('props123',props)}>
-        <Link href={`/users/${props.userid}`}>
+        <Link href={`/users`}>
           <a>Users</a>
         </Link>
       </li>

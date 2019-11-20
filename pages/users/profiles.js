@@ -15,6 +15,10 @@ class Home extends React.Component  {
     }
     console.log('context',query)
     return{
+      pathname:pathname,
+      query:query,
+     
+     
          user:{
            id:2,
            firasname:'jenya',
@@ -31,11 +35,11 @@ class Home extends React.Component  {
   //  let res = this.props.userData.map((el)=>{
   //     return el
   //   })
-   console.log('props',this.props)
+   console.log('props',this.props.query)
     return(
       <div>
         
-      <Nav userid={this.props.user.id}/>
+      <Nav userid={this.props.query.id}/>
     <p>{"res"}</p>
 
     <h>Helo world users profale 1231231</h>
