@@ -9,7 +9,7 @@ const links = [
 })
 
 const Nav = (props) => (
-  
+  console.log("props", props)
   <nav>
     <ul>
       <li>
