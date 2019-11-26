@@ -13,7 +13,6 @@ const Nav = (props) => (
   <nav>
     <ul>
       <li>
-        
         <Link href='/'>
           <a>Home</a>
         </Link>
