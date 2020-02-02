@@ -13,6 +13,7 @@ class Home extends React.Component {
     } catch (error) {
       console.error('error', error);
     }
+
     return {
       pathname: pathname,
       query: query,
